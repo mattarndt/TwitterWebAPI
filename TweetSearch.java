@@ -30,7 +30,7 @@ public class TweetSearch {
 	private static PrintWriter file;
 	
 	//	How many tweets to retrieve in every call to Twitter. 100 is the maximum allowed in the API
-	private static final int TWEETS_PER_QUERY		= 100;
+	private static final int TWEETS_PER_QUERY		= 10;
 
 	//	This controls how many queries, maximum, we will make of Twitter before cutting off the results.
 	//	You will retrieve up to MAX_QUERIES*TWEETS_PER_QUERY tweets.
@@ -41,7 +41,7 @@ public class TweetSearch {
 
 	//	What we want to search for in this program.  Justin Bieber always returns as many results as you could
 	//	ever want, so it's safe to assume we'll get multiple pages back...
-	private static final String SEARCH_TERM			= "trump";
+	private static final String SEARCH_TERM			= "eagles"; //Change this to change what you want to search
 
 
 	/**
