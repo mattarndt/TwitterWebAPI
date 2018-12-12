@@ -4,19 +4,6 @@ import java.util.Queue;
 public class BinarySearchTree implements Comparable<BinarySearchTree>{
 	Node root;
 	
-	/*public void insert(String word){
-		Node n1 = new Node(word);
-		if(root == null){
-			root = n1;
-		} else {
-			Node parIns = root;
-			Node insNode = root;
-			
-			while()
-		}
-	}
-	*/
-	
 	public void addNode(String word){
 		Node newNode = new Node(word);
 		if(root == null){
