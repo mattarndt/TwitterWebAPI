@@ -1,17 +1,3 @@
-/**
- * 	Demonstration of how to retrieve more than 100 tweets using the Twitter API.
- *
- * 	It is based upon the Application Authentication example, and therefore uses application
- * 	authentication.  It does not matter that much which type of authentication you use, although
- * 	it will effect your rate limits.
- *
- * 	You will note that this code has only the bare minimum of error handling.  A real production application
- * 	would have a lot more code in it to catch, diagnose, and recover from errors at all points of interaction
- * 	with Twitter.
- *
- * 	@author	Charles McGuinness
- */
-
 import java.io.PrintWriter;
 import java.util.Map;
 
